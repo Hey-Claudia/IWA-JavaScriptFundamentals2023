@@ -26,7 +26,7 @@ const leo = {                                              //added =
 };
 
 const sarah = {
-	name: sarahName.trimEnd() + (' ') + sarahSurname,    //fixed spelling error. H in Sarah was left out. Added.trimEnd to remove space next to sarah's name
+	name: sarahName.trim() + (' ') + sarahSurname,    //fixed spelling error. H in Sarah was left out. Added.trimEnd to remove space next to sarah's name
     balance: sarahBalance,
 	age: 62,
 	accessId: '6b279ae5-5657-4240-80e9-23f6b635f7a8',  // access id changed to accessID in order to be correct camelcase 

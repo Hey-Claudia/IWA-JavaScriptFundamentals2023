@@ -14,6 +14,7 @@ const leo = `${leoName}  ${leoSurname.trim()} (Owed: R ${parseFloat(leoBalance *
 const sarah = `${sarahName}  ${sarahSurname.trim()} (Owed: R ${parseFloat(sarahBalance * -1).toFixed(2)})\n`; //parsefloat to ensure balance is a number. timed by-1 to get pos b
 const totalOwed = parseFloat((parseFloat(leoBalance*-1)) + parseFloat(sarahBalance*-1)).toFixed(2)  //to ficed used to round of to 2 des
 const owed = "Total amount owed: ";
+const owedString = 
 const result = `${leo}${sarah}\n${divider}\n ${owed} R${totalOwed}\n${divider}`  // \n and divider to ensure correct formatting 
 
 console.log(result);
